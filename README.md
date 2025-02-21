@@ -110,20 +110,4 @@ PASS
 
 ---
 
-## 🐳 **Run with Docker (Optional)**
-1. **Build the Docker Image**
-   ```sh
-   docker build -t riskapp .
-   ```
-2. **Run the Container**
-   ```sh
-   docker run -p 8080:8080 riskapp
-   ```
-3. **Test APIs Again**
-   ```sh
-   curl -X GET http://localhost:8080/health
-   ```
-
----
-
 ### 🚀 **Now You're Ready to Use the Risk Management API!** 🎯
